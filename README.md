@@ -48,11 +48,11 @@ The **Income Analysis** section focuses on salary data, exploring compensation p
 
 The **Employee Records View** provides a comprehensive list of all employees, detailing their personal information, job data, and salary. Users can filter the list based on any column, allowing for customized exploration of employee data.
 
-### Dataset
+## Dataset
 
 The dataset used in this HR Dashboard project is generated using the Python `Faker` library. It simulates employee information commonly found in HR systems, such as demographics, job details, salary, performance ratings, and attrition. This dataset provides a rich source of data for analysis and visualization in Tableau.
 
-#### Key Fields:
+### Key Fields:
 
 - **Employee ID**: A unique identifier for each employee.
 - **Name**: Randomly generated first and last names.
@@ -67,7 +67,7 @@ The dataset used in this HR Dashboard project is generated using the Python `Fak
 - **Birth Date**: Generated to ensure consistency with age and hire date.
 - **Termination Date**: Assigned to 11.2% of employees, with probabilities ensuring at least a six-month gap between hire and termination dates.
 
-### Calculated Fields
+## Calculated Fields
 
 Key calculated fields used in this Tableau dashboard:
 
