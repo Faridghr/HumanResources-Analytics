@@ -7,7 +7,7 @@ This project simulates a real-world HR dashboard designed for effective data ana
 We start by gathering requirements from key stakeholders such as sales managers and HR managers, analyzing the data, and determining the appropriate visualizations.
 After understanding the dataset, we proceed with creating a data model in Tableau, followed by building the charts and dashboards.
 
-Visit the [Tableau Dashboard]() to explore the visualizations and gain insights into human resources data.
+Visit the [Tableau Dashboard](https://public.tableau.com/views/HRDashboard_17272452495470/HRSummary?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) to explore the visualizations and gain insights into human resources data.
 
 ## User Story - HR Dashboard
 
@@ -115,6 +115,6 @@ Key calculated fields used in this Tableau dashboard:
 
 ## Screen Shots
 
-![Sales Dashboard](png/SalesDashboard.JPG)
+![HR Summary](png/Summary.JPG)
 
-![Customer Dashboard](png/CustomerDashboard.JPG)
+![HR Detail](png/Detail.JPG)
