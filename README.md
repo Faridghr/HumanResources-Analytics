@@ -17,42 +17,63 @@ As an HR manager, I require a comprehensive dashboard that provides a holistic v
 
 The **Summary View** consists of three main sections: Overview, Demographics, and Income Analysis. Each section provides critical information to help manage and understand workforce dynamics.
 
-#### 1. Overview
+#### Overview
 
 The **Overview** section gives an essential snapshot of HR metrics:
 
-- **Total Hired, Active, and Terminated Employees**: Big Ass Numbers (BANs) for the total count of hired, active, and terminated employees.
-- **Employee Hiring and Termination Trends Over the Years**: Line chart to visualize hiring and termination trends over time.
-- **Breakdown of Total Employees by Department and Job Title**: Bar charts to display the total employees per department and job title.
-- **Employee Comparison Between Headquarters (HQ) and Branches**: Map visualization with New York as the HQ and other locations categorized as branches.
-- **Distribution of Employees by City and State**: Enhanced map with city shapes indicating employee distribution by location, with varying size for each city.
+1. **Total Hired, Active, and Terminated Employees**
+- **Chosen Chart:** Big Ass Numbers (BANs) for the total count of hired, active, and terminated employees.
 
-#### 2. Demographics
+2. **Employee Hiring and Termination Trends Over the Years**:
+- **Chosen Chart:** Line chart to visualize hiring and termination trends over time.
+
+3. **Breakdown of Total Employees by Department and Job Title**: 
+- **Chosen Chart:** Bar charts to display the total employees per department and job title.
+
+4. **Employee Comparison Between Headquarters (HQ) and Branches**: 
+- **Chosen Chart:** Map visualization with New York as the HQ and other locations categorized as branches.
+
+5. **Distribution of Employees by City and State**: 
+- **Chosen Chart:** Enhanced map with city shapes indicating employee distribution by location, with varying size for each city.
+
+#### Demographics
 
 The **Demographics** section provides detailed insights into the workforce composition:
 
-- **Gender Ratio in the Company**: Pie chart to visualize the gender ratio.
-- **Distribution of Employees by Age Groups and Education Levels**: Heatmap to illustrate the correlation between age and education levels.
-- **Age Group Breakdown of Employees**: Bar chart to show the total number of employees in each age group.
-- **Education Level Breakdown of Employees**: Bar chart to show the total employees by education level.
-- **Correlation Between Educational Background and Performance Ratings**: Heatmap to visualize the relationship between education and performance.
+1. **Gender Ratio in the Company**: 
+- **Chosen Chart:** Pie chart to visualize the gender ratio.
 
-#### 3. Income Analysis
+2. **Distribution of Employees by Age Groups and Education Levels**: 
+- **Chosen Chart:** Heatmap to illustrate the correlation between age and education levels.
+
+3. **Age Group Breakdown of Employees**: 
+- **Chosen Chart:** Bar chart to show the total number of employees in each age group.
+
+4. **Education Level Breakdown of Employees**: 
+- **Chosen Chart:** Bar chart to show the total employees by education level.
+
+5. **Correlation Between Educational Background and Performance Ratings**: 
+- **Chosen Chart:** Heatmap to visualize the relationship between education and performance.
+
+#### Income Analysis
 
 The **Income Analysis** section focuses on salary data, exploring compensation patterns:
 
-- **Salary Comparison Across Education Levels and Genders**: Barbell chart to compare salaries between genders for different education levels.
-- **Correlation Between Age and Salary Across Departments**: Scatter plot to display the relationship between age and salary in various departments.
+1. **Salary Comparison Across Education Levels and Genders**: 
+- **Chosen Chart:** Barbell chart to compare salaries between genders for different education levels.
+
+2. **Correlation Between Age and Salary Across Departments**: 
+- **Chosen Chart:** Scatter plot to display the relationship between age and salary in various departments.
 
 ### Employee Records View
 
 The **Employee Records View** provides a comprehensive list of all employees, detailing their personal information, job data, and salary. Users can filter the list based on any column, allowing for customized exploration of employee data.
 
-### Dataset
+## Dataset
 
 The dataset used in this HR Dashboard project is generated using the Python `Faker` library. It simulates employee information commonly found in HR systems, such as demographics, job details, salary, performance ratings, and attrition. This dataset provides a rich source of data for analysis and visualization in Tableau.
 
-#### Key Fields:
+### Key Fields:
 
 - **Employee ID**: A unique identifier for each employee.
 - **Name**: Randomly generated first and last names.
@@ -67,7 +88,7 @@ The dataset used in this HR Dashboard project is generated using the Python `Fak
 - **Birth Date**: Generated to ensure consistency with age and hire date.
 - **Termination Date**: Assigned to 11.2% of employees, with probabilities ensuring at least a six-month gap between hire and termination dates.
 
-### Calculated Fields
+## Calculated Fields
 
 Key calculated fields used in this Tableau dashboard:
 
